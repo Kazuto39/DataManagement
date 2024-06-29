@@ -4,6 +4,10 @@ def toss_coin():
     return "Heads" if random.randint(0, 1) == 0 else "Tails"
 
 def main():
+
+    user_name = input("Who are you? \n> ")
+    print(f"Hello, {user_name}!")
+
     print("Tossing a coin...")
     heads_count = 0
     tails_count = 0
